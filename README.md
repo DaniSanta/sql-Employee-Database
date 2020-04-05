@@ -1,2 +1,2 @@
 # sql-challenge
-SQL Homework 
+SQL Table merging and analysis 
