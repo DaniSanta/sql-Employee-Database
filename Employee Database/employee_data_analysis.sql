@@ -14,7 +14,7 @@ e.last_name,
 e.hire_date
 FROM employees e
 WHERE e.hire_date between '1986-1-1' and '1986-12-31'
-ORDER BY e.hire_date
+ORDER BY e.hire_date;
 --List the manager of each department with the following information: department number, department name, 
 --the manager's employee number, last name, first name, and start and end employment dates.
 SELECT d.dept_no,
@@ -66,7 +66,7 @@ JOIN dept_emp de
 ON (e.emp_no = de.emp_no)
 JOIN departments d 
 ON (de.dept_no = d.dept_no)
-WHERE d.dept_name = 'Sales' OR d.dept_name = 'Development'
+WHERE d.dept_name = 'Sales' OR d.dept_name = 'Development';
 --Thought the 'and' function would work in this scenario.^
 
 --In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
